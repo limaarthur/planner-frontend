@@ -38,6 +38,8 @@ export function App() {
       ...emailsToInvite,
       email
     ])
+
+    event.currentTarget.reset()
   }
 
   return (
